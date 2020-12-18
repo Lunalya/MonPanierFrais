@@ -1,3 +1,8 @@
+@font-face {
+ font-family: "Amienne";
+ src: url("../fonts/Amienne Regular.ttf");
+}
+
 nav{
   border-bottom: solid 4px tomato;
 }
@@ -10,12 +15,15 @@ nav ul {
 nav li{
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 2em;
+  font-size: 2.7em;
+  letter-spacing: 2px;
+  font-family: 'Amienne';
 }
 
 section{
   display: flex;
   justify-content: center;
+
 }
 
 .card-body{
@@ -27,18 +35,25 @@ section{
   margin-top: 5%;
 }
 
-h5{
-  font-size: 2em;
+h5, h2{
+  font-size: 2.5em;
   margin-bottom: 50px;
   margin-top: 100px;
+  font-weight: bold;
   text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Amienne';
+
 }
 
+
 .card-title{
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 50px;
   margin-top: 30px;
   text-align: center;
+  letter-spacing: 3px;
+  font-family: 'Amienne';
 }
 
 .card-text{
